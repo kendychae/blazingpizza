@@ -11,6 +11,7 @@ dotnet run
 ```
 
 The application will start and display URLs like:
+
 ```
 Now listening on: https://localhost:5001
 Now listening on: http://localhost:5000
@@ -29,7 +30,7 @@ Now listening on: http://localhost:5000
 
 ✅ **Currency Check**: All prices should display with $ (dollar sign), not £ (pound)  
 ✅ **Header Check**: Logo and navigation visible at top  
-✅ **Footer Check**: Your name "Keendahl Bingham" and "United States of America" at bottom  
+✅ **Footer Check**: Your name "Keendahl Bingham" and "United States of America" at bottom
 
 ### 4. Upload to GitHub
 
@@ -84,6 +85,7 @@ git push -u origin main
 ## Professional Portfolio Note
 
 This project demonstrates:
+
 - Blazor Server development
 - CSS customization
 - Component architecture

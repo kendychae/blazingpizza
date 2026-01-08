@@ -23,16 +23,19 @@
 ## ✅ Checklist - Your Screenshot MUST Include:
 
 ### Top Section (Header):
+
 - [ ] Blazing Pizza logo visible
 - [ ] "Get Pizza" navigation tab with pizza slice icon
 
 ### Middle Section (Main Content):
+
 - [ ] "Blazing Pizzas" heading
 - [ ] Multiple pizza cards displayed
 - [ ] Prices showing **$** (dollar sign), NOT £ (pound sign)
 - [ ] Pizza images and descriptions
 
 ### Bottom Section (Footer):
+
 - [ ] Text: "Created by **Keendahl Bingham**"
 - [ ] Text: "United States of America"
 
@@ -41,16 +44,19 @@
 ## 🎯 Taking the Perfect Screenshot:
 
 ### Step 1: Start the Application
+
 ```powershell
 cd c:\Users\kendy\BlazingPizza
 dotnet run
 ```
 
 ### Step 2: Open Browser
+
 - Navigate to: `https://localhost:5001` or `http://localhost:5000`
 - Wait for pizzas to load (2-3 seconds)
 
 ### Step 3: Adjust Window
+
 - **Make sure you can see:**
   - Full header at top
   - At least 3-4 pizza cards
@@ -58,12 +64,15 @@ dotnet run
 - **If footer isn't visible:** Scroll down slightly or zoom out (Ctrl + Mouse Wheel)
 
 ### Step 4: Capture Screenshot
+
 **Windows 11/10:**
+
 - Press `Windows + Shift + S` for Snip & Sketch
 - Or use `Windows + PrintScreen` for full screen
 - Or use Snipping Tool app
 
 **Save the screenshot as:**
+
 - `BlazingPizza_KeendahlBingham.png` or
 - `W03_Assignment_Screenshot.png`
 
@@ -72,19 +81,25 @@ dotnet run
 ## ⚠️ Common Issues & Solutions:
 
 ### Issue: Prices still show £
+
 **Solution:** Hard refresh browser (Ctrl + F5)
 
 ### Issue: Footer not visible
-**Solution:** 
+
+**Solution:**
+
 1. Zoom out (Ctrl + Mouse Wheel Down)
 2. Or scroll down slightly
 3. Or maximize browser window
 
 ### Issue: Header not showing
+
 **Solution:** Scroll to top of page, hard refresh (Ctrl + F5)
 
 ### Issue: No pizzas loading
-**Solution:** 
+
+**Solution:**
+
 1. Check terminal for errors
 2. Wait 5-10 seconds for database initialization
 3. Refresh page (F5)
@@ -103,11 +118,13 @@ dotnet run
 ## 🎨 Example Screenshot Names:
 
 Good names:
+
 - ✅ `BlazingPizza_Assignment_KeendahlBingham.png`
 - ✅ `W03_BlazorNavigation_Screenshot.png`
 - ✅ `CSE325_Week3_BlazingPizza.png`
 
 Bad names:
+
 - ❌ `Screenshot1.png`
 - ❌ `Untitled.png`
 - ❌ `image.jpg`
@@ -137,6 +154,7 @@ Bad names:
 ## 🏆 Perfect Screenshot Checklist:
 
 Before submitting, verify your screenshot shows:
+
 - [ ] Logo in top-left corner
 - [ ] "Get Pizza" tab in header
 - [ ] Multiple pizzas visible

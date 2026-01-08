@@ -18,33 +18,37 @@ This is a fully functional Blazor Server web application for ordering pizzas. Th
 ## Features Implemented
 
 ### 1. **Currency Localization (USD)**
-   - Converted all pricing displays from British Pounds (£) to United States Dollars ($)
-   - Updated CSS files to reflect USD currency symbol throughout the application
-   - Modified price displays in:
-     - Pizza cards on main page
-     - Shopping cart items
-     - Order total
-     - Configuration dialog
-     - Size selection display
+
+- Converted all pricing displays from British Pounds (£) to United States Dollars ($)
+- Updated CSS files to reflect USD currency symbol throughout the application
+- Modified price displays in:
+  - Pizza cards on main page
+  - Shopping cart items
+  - Order total
+  - Configuration dialog
+  - Size selection display
 
 ### 2. **Navigation Header**
-   - Implemented a professional navigation bar with:
-     - Blazing Pizza logo
-     - "Get Pizza" navigation tab with icon
-     - Responsive design with proper styling
-     - Fixed positioning for consistent user experience
+
+- Implemented a professional navigation bar with:
+  - Blazing Pizza logo
+  - "Get Pizza" navigation tab with icon
+  - Responsive design with proper styling
+  - Fixed positioning for consistent user experience
 
 ### 3. **Footer Component**
-   - Added professional footer displaying:
-     - Developer name: **Keendahl Bingham**
-     - Country: **United States of America**
-     - Fixed positioning at bottom of page
-     - Professional styling consistent with application theme
+
+- Added professional footer displaying:
+  - Developer name: **Keendahl Bingham**
+  - Country: **United States of America**
+  - Fixed positioning at bottom of page
+  - Professional styling consistent with application theme
 
 ### 4. **Framework Compatibility**
-   - Updated project from .NET 9.0 to .NET 8.0 for broader compatibility
-   - Verified all NuGet package versions match target framework
-   - Successfully built and tested application
+
+- Updated project from .NET 9.0 to .NET 8.0 for broader compatibility
+- Verified all NuGet package versions match target framework
+- Successfully built and tested application
 
 ---
 
@@ -63,16 +67,19 @@ This is a fully functional Blazor Server web application for ordering pizzas. Th
 ### Core Changes:
 
 1. **`Pages/_Host.cshtml`**
+
    - Added navigation header with logo and menu
    - Implemented footer with developer information
    - Enhanced page structure for professional presentation
 
 2. **`wwwroot/css/site.css`**
+
    - Changed all currency symbols from £ to $
    - Added bottom padding to accommodate footer
    - Ensured responsive layout with fixed header and footer
 
 3. **`Shared/ConfigurePizzaDialog.razor`**
+
    - Updated price display to show USD ($) instead of GBP (£)
 
 4. **`BlazingPizza.csproj`**
@@ -84,6 +91,7 @@ This is a fully functional Blazor Server web application for ordering pizzas. Th
 ## Running the Application
 
 ### Prerequisites
+
 - .NET SDK 8.0 or higher
 - Modern web browser (Chrome, Edge, Firefox, Safari)
 
@@ -104,6 +112,7 @@ dotnet run
 ```
 
 The application will be available at:
+
 - HTTPS: `https://localhost:5001`
 - HTTP: `http://localhost:5000`
 
@@ -141,18 +150,21 @@ BlazingPizza/
 ## Professional Highlights
 
 ### Code Quality
+
 - Clean, maintainable code structure
 - Consistent naming conventions
 - Proper separation of concerns
 - Well-organized file structure
 
 ### User Experience
+
 - Intuitive navigation
 - Responsive design
 - Professional visual presentation
 - Clear developer attribution
 
 ### Technical Excellence
+
 - Framework compatibility ensured
 - Zero build warnings or errors
 - Proper routing implementation
@@ -163,6 +175,7 @@ BlazingPizza/
 ## Screenshots Required
 
 For Canvas submission, capture a screenshot showing:
+
 1. **Navigation Header** - Logo and "Get Pizza" tab
 2. **Pizza List** - Main ordering interface with prices in USD
 3. **Footer** - Developer name and country information
@@ -174,6 +187,7 @@ All three elements should be visible in a single screenshot of the running appli
 ## Future Enhancements
 
 Potential improvements for production deployment:
+
 - User authentication system
 - Order history and tracking
 - Payment gateway integration
@@ -206,4 +220,4 @@ This project was created as part of coursework for educational purposes.
 
 ---
 
-*This application demonstrates professional-grade Blazor development with attention to detail, user experience, and code quality.*
+_This application demonstrates professional-grade Blazor development with attention to detail, user experience, and code quality._
