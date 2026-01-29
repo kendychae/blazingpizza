@@ -2,7 +2,7 @@
 
 ## Assignment: W03 - Use Pages, Routing, and Layouts to Improve Blazor Navigation
 
-**Developer:** Keendahl Bingham  
+**Developer:** Kendahl Bingham  
 **Date:** January 7, 2026  
 **Course:** CSE 325 - .NET Software Development  
 **Institution:** Brigham Young University-Idaho
@@ -39,7 +39,7 @@ This is a fully functional Blazor Server web application for ordering pizzas. Th
 ### 3. **Footer Component**
 
 - Added professional footer displaying:
-  - Developer name: **Keendahl Bingham**
+  - Developer name: **Kendahl Bingham**
   - Country: **United States of America**
   - Fixed positioning at bottom of page
   - Professional styling consistent with application theme
@@ -67,19 +67,16 @@ This is a fully functional Blazor Server web application for ordering pizzas. Th
 ### Core Changes:
 
 1. **`Pages/_Host.cshtml`**
-
    - Added navigation header with logo and menu
    - Implemented footer with developer information
    - Enhanced page structure for professional presentation
 
 2. **`wwwroot/css/site.css`**
-
    - Changed all currency symbols from £ to $
    - Added bottom padding to accommodate footer
    - Ensured responsive layout with fixed header and footer
 
 3. **`Shared/ConfigurePizzaDialog.razor`**
-
    - Updated price display to show USD ($) instead of GBP (£)
 
 4. **`BlazingPizza.csproj`**
@@ -200,7 +197,7 @@ Potential improvements for production deployment:
 
 ## Contact Information
 
-**Developer:** Keendahl Bingham  
+**Developer:** Kendahl Bingham  
 **Project Repository:** [Include your repository URL here]  
 **Portfolio:** [Include your portfolio URL here]
 
